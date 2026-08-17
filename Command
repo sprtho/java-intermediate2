@@ -1,0 +1,38 @@
+Java spring 인텔리제이  단축키
+
+우선 순위
+ALT + INSERT  -> generate (Constructor, getter, setter) -> 생성자, 메소드 오버라이딩 등 자동 생성
+
+ctrl + shift + enter -> 자동완성
+
+Ctrl + Alt + V -> Extract/Introduce -> 생성자의 객체 생성 등 변수 생성을 편리하게
+
+ALT + ENTER -> Show Context Action (implement method) -> import 추가 등 기능 (METHOD 만들기)
+
+ctrl + shift + t -> test 소스 생성 (메소드 명 클릭하고)
+
+CTRL + E -> 과거 소스로 이동
+
+CTRL + F12 -> 해당 클래스의 메소드 볼수있음
+
+ctrl + alt + b -> 인터페이스의 구현함수 확인 가능
+
+ctrl + N -> 전체 소스 검색
+
+ctrl + o -> method overiding
+
+ctrl + alt + n -> 변수 합치기
+
+ctrl + alt + shift + t -> 프로그램 로직을 method로 변환
+ctrl + alt + shift + t -> inline Varialbe 누르면 변수 합침
+
+shift + f6 -> 변수 이름 일괄 변환
+
+iter 명령어 -> for loop 생성
+
+-- 함수 실제 선언된 부분을 볼 때 이용
+ctrl + B -> 해당 함수에 실 사용부분을 찾아감
+Ctrl + Alt + Left -> 작업의 이전 단계로
+Ctrl + Alt + Right -> 작업의 이전 단계로
+
+soutv -> 변수에 해당하는 System.out.println();
