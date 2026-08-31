@@ -1,13 +1,13 @@
-package generic.test.ex3;
+package generic.ex3;
 
 import generic.animal.Cat;
 import generic.animal.Dog;
 
-public class AnimalHospitalMainV0 {
+public class AnimalHospitalMainV3 {
 
     public static void main(String[] args) {
-        DogHospital dogHospital = new DogHospital();
-        CatHospital catHospital = new CatHospital();
+        AnimalHospitalV3<Dog> dogHospital = new AnimalHospitalV3();
+        AnimalHospitalV3<Cat> catHospital = new AnimalHospitalV3();
 
         Dog dog = new Dog("멍멍이1", 100);
         Cat cat = new Cat("나옹이1", 300);
@@ -25,7 +25,7 @@ public class AnimalHospitalMainV0 {
 
         // 문제2: 개 타입 반환
         dogHospital.set(dog);
-        Dog biggerDog = dogHospital.bigger(new Dog("멍멍이2", 200));
+        Dog biggerDog = dogHospital.bigger(new Dog("멍멍이2", 200)); // Dog 타입 반환을 위해 다운캐스팅 발생
         System.out.println("biggerDog = " + biggerDog);
 
     }
